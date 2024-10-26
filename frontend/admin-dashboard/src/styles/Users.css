@@ -1,0 +1,25 @@
+.users {
+  padding: 0px 25px;
+}
+
+.users h2 {
+    margin: 15px 0px;
+}
+
+.users p {
+    margin: 10px 0px;
+}
+
+.main {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.tabl {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.form {
+    max-width: 500px;
+}

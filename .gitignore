@@ -1,0 +1,5 @@
+*.idea
+*venv
+*model
+*__pycache__
+*neural_speaker

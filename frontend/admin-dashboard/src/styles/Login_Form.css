@@ -1,0 +1,76 @@
+/* Login_Form.css */
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: #f0f0f0; /* Светло-серый фон */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 420px;
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.form-container h1 {
+  font-size: 1.8rem;
+  color: #222; /* Темно-серый текст */
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333; /* Темный текст */
+  background-color: #eaeaea; /* Светло-серый фон */
+  border: 1px solid #ccc; /* Серый бордер */
+  border-radius: 6px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #555; /* Темно-серый бордер при фокусе */
+  background-color: #dcdcdc; /* Чуть более темный фон при фокусе */
+  outline: none;
+}
+
+.form-button {
+  width: 70%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #333; /* Темно-серый фон */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: #555; /* Светло-серый фон при наведении */
+  transform: translateY(-2px);
+}
+
+.form-button:active {
+  background-color: #222; /* Очень темный фон при нажатии */
+}
+
+.loading-text {
+  color: #666; /* Серый цвет текста загрузки */
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
